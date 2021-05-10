@@ -54,16 +54,12 @@ def pre_word2vec(num2word,word2vec_preweight_file):
                 try:
                     word2vec_preweight.append(gensim_model[num2word[i]])
                     f.write(str(gensim_model[num2word[i]].tolist())+'\n')
-                    #f.write(gensim_model[num2word[i]])
                 except:
-                    # word2vec_preweight.append(gensim_model['no'])
-                    # f.write(str(gensim_model['no'].tolist()) + '\n')
                     word2vec_preweight.append(np.random.normal(loc=0.0, scale=1, size=(300)))
                     f.write(str(np.random.normal(loc=0.0, scale=1, size=(300)).tolist()) + '\n')
     word2vec_preweight = np.array(word2vec_preweight)
-
     return word2vec_preweight
-    # load GoogleNews-vectors-negative300.bin
+
 
 def train_data_prepare(data_filename,word2vec_preweight_file,train_statement_file,train_meta_file,statement_word_num=25):
     #statement_word_num    ;the number of word in statement will be used to build word2vec
@@ -212,8 +208,3 @@ def load_data_statementonly(line_statement,line_meta):
         meta_information.append(temp)
 
     return statement_information,len_statement,meta_information
-
-
-
-
-
