@@ -82,4 +82,3 @@ class Net(nn.Module):
         return self.out(new_final_vector)
 
 
-
