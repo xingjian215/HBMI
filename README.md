@@ -1,6 +1,6 @@
 # HBMI
 HMBI: A New Hybrid Deep Model based on Behavior Information for Fake News Detection
-#Jian Xing
+# Jian Xing
 ======================================================================
 
 The original sources retain the copyright of the data.
