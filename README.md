@@ -17,7 +17,7 @@ Description of the code.
 1. run.py:Main program
 2. train.py:train the proposed model.
 3. test.py:test the proposed model.
-4. extract_features_new.py:
+4. extract_features_new.py:Extract pre-computed feature vectors from BERT.
 5. model_4.py:The structure of the proposed model
 6. transformer_1.py:The architecture of the Transformer
 
