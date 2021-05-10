@@ -22,6 +22,5 @@ plt.yticks(xlocations, labels, rotation=360)
 ax.set_title('Confusion Matrix') #标题
 ax.set_xlabel('Predicted labels') #x轴
 ax.set_ylabel('True labels') #y轴
-
 plt.savefig('matrix.jpg')
 plt.show()
