@@ -14,5 +14,5 @@ xingjian@iie.ac.cn
 ======================================================================
 
 Description of the code.
-
+The experimental environment is a server with Intel i9-9900k, 64GB DDR4 memory and a Nvidia GeForce RTX 2080Ti GPU.
 We use pytorch to implement the proposed model.
